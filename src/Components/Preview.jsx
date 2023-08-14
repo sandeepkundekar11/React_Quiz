@@ -62,7 +62,6 @@ const Preview = () => {
   return (
     <>
       {showPopup()}
-      <a  className="Upbutton" href="#score">Up</a>
       <div className="preview" id="score">
         <div className="scoreShow" >
           <div className="QuizMode">
@@ -87,7 +86,7 @@ const Preview = () => {
               {attemptedQ.map((data) => {
                 return (
                   <div style={{ backgroundColor: data.color }}>
-                    <a href={`#${data.id}`}>Q{data.id}</a>
+                    <a>Q{data.id}</a>
                   </div>
                 );
               })}

@@ -48,16 +48,35 @@
 }
 .Questions {
   display: flex;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
   border: solid black 1px;
+  width: 100%;
   border-radius: 6px;
   padding: 6px;
   margin-top: 8px;
   background-color: rgb(235, 235, 235);
 }
+@media (max-width:400px) {
+  .Questions {
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    border: solid black 1px;
+    border-radius: 6px;
+    padding: 6px;
+    width: 100%;
+    margin-top: 8px;
+    background-color: rgb(235, 235, 235);
+  }
+  .q {
+    margin-right: 12px;
+   width: 15%;
+  }
+}
 .q {
   margin-right: 12px;
+ /* width: 15%; */
 }
 .timer {
   display: flex;
