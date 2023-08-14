@@ -286,20 +286,29 @@
   flex-wrap: wrap;
   align-items: center;
 }
+.date 
+{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
 .scoreTimer>div
 {
-  width:320px;
+  width:300px;
  font-size: 1.3rem; 
  margin-top: 12px;
  font-weight: 900;
  display: flex;
  justify-content: start;
  align-items: center;
+ flex-wrap: wrap;
 }
 .scoreTimer>div>span
 {
   color: brown;
   margin:0 8px 0 8px;
+  display: flex;
+  flex-wrap: wrap;
 }
 /* styling up button */
 .Upbutton
