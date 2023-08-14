@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import HardMode from "./Components/HardMode";
+import History from "./Components/History";
+import Home from "./Components/Home";
+import Navbar from "./Components/Navbar";
+import Preview from "./Components/Preview";
+import SimpleMode from "./Components/SimpleMode";
+import ContextProvider from "./context/ContextProvider";
+import {BrowserRouter,Route,Routes,HashRouter} from "react-router-dom"
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ContextProvider>
+      <HashRouter>
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/simpleMode" element={<SimpleMode/>}/>
+        <Route path="/hardMode" element={<HardMode/>}/>
+        <Route path="/preview" element={<Preview/>}/>
+        <Route path="/history" element={<History/>}/>
+      </Routes>
+      </HashRouter>
+    </ContextProvider>
   );
-}
-
+};
 export default App;

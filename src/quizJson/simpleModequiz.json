@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "question": "What is the capital of France?",
+    "options": [
+      { "value": "London", "color": "transparent" },
+      { "value": "Paris", "color": "transparent" },
+      { "value": "Berlin", "color": "transparent" },
+      { "value": "Madrid", "color": "transparent" }
+    ],
+    "answer": "Paris"
+  },
+  {
+    "id": 2,
+    "question": "Which planet is known as the 'Red Planet'?",
+    "options": [
+      { "value": "Venus", "color": "transparent" },
+      { "value": "Mars", "color": "transparent" },
+      { "value": "Saturn", "color": "transparent" },
+      { "value": "Jupiter", "color": "transparent" }
+    ],
+    "answer": "Mars"
+  },
+  {
+    "id": 3,
+    "question": "What is the chemical symbol for water?",
+    "options": [
+      { "value": "H2O", "color": "transparent" },
+      { "value": "CO2", "color": "transparent" },
+      { "value": "O2", "color": "transparent" },
+      { "value": "N2", "color": "transparent" }
+    ],
+    "answer": "H2O"
+  },
+  {
+    "id": 4,
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "options": [
+      { "value": "William Shakespeare", "color": "transparent" },
+      { "value": "Charles Dickens", "color": "transparent" },
+      { "value": "Mark Twain", "color": "transparent" },
+      { "value": "Jane Austen", "color": "transparent" }
+    ],
+    "answer": "William Shakespeare"
+  },
+  {
+    "id": 5,
+    "question": "What is the largest ocean on Earth?",
+    "options": [
+      { "value": "Indian Ocean", "color": "transparent" },
+      { "value": "Atlantic Ocean", "color": "transparent" },
+      { "value": "Arctic Ocean", "color": "transparent" },
+      { "value": "Pacific Ocean", "color": "transparent" }
+    ],
+    "answer": "Pacific Ocean"
+  },
+  {
+    "id": 6,
+    "question": "What is the square root of 144?",
+    "options": [
+      { "value": "12", "color": "transparent" },
+      { "value": "10", "color": "transparent" },
+      { "value": "15", "color": "transparent" },
+      { "value": "8", "color": "transparent" }
+    ],
+    "answer": "12"
+  },
+  {
+    "id": 7,
+    "question": "Which is the largest planet in our solar system?",
+    "options": [
+      { "value": "Mars", "color": "transparent" },
+      { "value": "Jupiter", "color": "transparent" },
+      { "value": "Venus", "color": "transparent" },
+      { "value": "Saturn", "color": "transparent" }
+    ],
+    "answer": "Jupiter"
+  },
+  {
+    "id": 8,
+    "question": "Who is the author of the 'Harry Potter' book series?",
+    "options": [
+      { "value": "J.K. Rowling", "color": "transparent" },
+      { "value": "Stephen King", "color": "transparent" },
+      { "value": "George R.R. Martin", "color": "transparent" },
+      { "value": "J.R.R. Tolkien", "color": "transparent" }
+    ],
+    "answer": "J.K. Rowling"
+  },
+  {
+    "id": 9,
+    "question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+    "options": [
+      { "value": "Oxygen", "color": "transparent" },
+      { "value": "Carbon dioxide", "color": "transparent" },
+      { "value": "Nitrogen", "color": "transparent" },
+      { "value": "Methane", "color": "transparent" }
+    ],
+    "answer": "Carbon dioxide"
+  },
+  {
+    "id": 10,
+    "question": "Who painted the 'Mona Lisa'?",
+    "options": [
+      { "value": "Vincent van Gogh", "color": "transparent" },
+      { "value": "Leonardo da Vinci", "color": "transparent" },
+      { "value": "Pablo Picasso", "color": "transparent" },
+      { "value": "Michelangelo", "color": "transparent" }
+    ],
+    "answer": "Leonardo da Vinci"
+  }
+]

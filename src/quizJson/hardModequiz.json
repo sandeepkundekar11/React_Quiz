@@ -1,0 +1,168 @@
+[
+    {
+        "id": 1,
+        "question": "What is the chemical symbol for the element gold?",
+        "options": [
+          { "value": "Go", "color": "transparent" },
+          { "value": "Au", "color": "transparent" },
+          { "value": "Gl", "color": "transparent" },
+          { "value": "Gd", "color": "transparent" }
+        ],
+        "answer": "Au"
+      },
+      {
+        "id": 2,
+        "question": "Who wrote the epic poem 'Paradise Lost'?",
+        "options": [
+          { "value": "William Wordsworth", "color": "transparent" },
+          { "value": "John Milton", "color": "transparent" },
+          { "value": "Geoffrey Chaucer", "color": "transparent" },
+          { "value": "Emily Dickinson", "color": "transparent" }
+        ],
+        "answer": "John Milton"
+      },
+      {
+        "id": 3,
+        "question": "In computing, what does the acronym 'SQL' stand for?",
+        "options": [
+          { "value": "Structured Query Language", "color": "transparent" },
+          { "value": "Standard Query Language", "color": "transparent" },
+          { "value": "Simple Query Language", "color": "transparent" },
+          { "value": "Sequential Query Language", "color": "transparent" }
+        ],
+        "answer": "Structured Query Language"
+      },
+      {
+        "id": 4,
+        "question": "Which scientist developed the theory of general relativity?",
+        "options": [
+          { "value": "Isaac Newton", "color": "transparent" },
+          { "value": "Albert Einstein", "color": "transparent" },
+          { "value": "Niels Bohr", "color": "transparent" },
+          { "value": "Erwin Schrödinger", "color": "transparent" }
+        ],
+        "answer": "Albert Einstein"
+      },
+      {
+        "id": 5,
+        "question": "Which mountain is the highest in Africa?",
+        "options": [
+          { "value": "Mount Everest", "color": "transparent" },
+          { "value": "K2", "color": "transparent" },
+          { "value": "Mount Kilimanjaro", "color": "transparent" },
+          { "value": "Mount McKinley", "color": "transparent" }
+        ],
+        "answer": "Mount Kilimanjaro"
+      },
+      {
+        "id": 6,
+        "question": "Which French painter is known for his series of paintings of water lilies?",
+        "options": [
+          { "value": "Claude Monet", "color": "transparent" },
+          { "value": "Pablo Picasso", "color": "transparent" },
+          { "value": "Vincent van Gogh", "color": "transparent" },
+          { "value": "Salvador Dalí", "color": "transparent" }
+        ],
+        "answer": "Claude Monet"
+      },
+      {
+        "id": 7,
+        "question": "What is the chemical symbol for the element mercury?",
+        "options": [
+          { "value": "Me", "color": "transparent" },
+          { "value": "Hg", "color": "transparent" },
+          { "value": "Mc", "color": "transparent" },
+          { "value": "Mg", "color": "transparent" }
+        ],
+        "answer": "Hg"
+      },
+      {
+        "id": 8,
+        "question": "Who wrote the play 'Hamlet'?",
+        "options": [
+          { "value": "William Shakespeare", "color": "transparent" },
+          { "value": "Anton Chekhov", "color": "transparent" },
+          { "value": "Oscar Wilde", "color": "transparent" },
+          { "value": "George Bernard Shaw", "color": "transparent" }
+        ],
+        "answer": "William Shakespeare"
+      },
+      {
+        "id": 9,
+        "question": "In Greek mythology, who is the goddess of wisdom?",
+        "options": [
+          { "value": "Athena", "color": "transparent" },
+          { "value": "Aphrodite", "color": "transparent" },
+          { "value": "Hera", "color": "transparent" },
+          { "value": "Artemis", "color": "transparent" }
+        ],
+        "answer": "Athena"
+      },
+      {
+        "id": 10,
+        "question": "What is the largest organ in the human body?",
+        "options": [
+          { "value": "Liver", "color": "transparent" },
+          { "value": "Brain", "color": "transparent" },
+          { "value": "Heart", "color": "transparent" },
+          { "value": "Skin", "color": "transparent" }
+        ],
+        "answer": "Skin"
+      },
+      {
+        "id": 11,
+        "question": "Which novel by Leo Tolstoy begins with the line 'Happy families are all alike; every unhappy family is unhappy in its own way'?",
+        "options": [
+          { "value": "War and Peace", "color": "transparent" },
+          { "value": "Anna Karenina", "color": "transparent" },
+          { "value": "The Brothers Karamazov", "color": "transparent" },
+          { "value": "Crime and Punishment", "color": "transparent" }
+        ],
+        "answer": "Anna Karenina"
+      },
+      {
+        "id": 12,
+        "question": "What is the main component of the Earth's atmosphere?",
+        "options": [
+          { "value": "Oxygen", "color": "transparent" },
+          { "value": "Nitrogen", "color": "transparent" },
+          { "value": "Carbon dioxide", "color": "transparent" },
+          { "value": "Helium", "color": "transparent" }
+        ],
+        "answer": "Nitrogen"
+      },
+      {
+        "id": 13,
+        "question": "Which Italian explorer is credited with discovering America?",
+        "options": [
+          { "value": "Christopher Columbus", "color": "transparent" },
+          { "value": "Ferdinand Magellan", "color": "transparent" },
+          { "value": "Vasco da Gama", "color": "transparent" },
+          { "value": "Amerigo Vespucci", "color": "transparent" }
+        ],
+        "answer": "Christopher Columbus"
+      },
+      {
+        "id": 14,
+        "question": "In which year did the French Revolution begin?",
+        "options": [
+          { "value": "1789", "color": "transparent" },
+          { "value": "1798", "color": "transparent" },
+          { "value": "1804", "color": "transparent" },
+          { "value": "1812", "color": "transparent" }
+        ],
+        "answer": "1789"
+      },
+      {
+        "id": 15,
+        "question": "Who is known as the 'father of modern physics'?",
+        "options": [
+          { "value": "Isaac Newton", "color": "transparent" },
+          { "value": "Albert Einstein", "color": "transparent" },
+          { "value": "Galileo Galilei", "color": "transparent" },
+          { "value": "Nikola Tesla", "color": "transparent" }
+        ],
+        "answer": "Albert Einstein"
+      }
+      
+]

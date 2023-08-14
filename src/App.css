@@ -1,38 +1,369 @@
-.App {
-  text-align: center;
+* {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.mode {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("./images/background1.webp") no-repeat center center/cover;
+
+  /* padding: 5rem 0 0 0; */
+}
+.subContainer {
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  border: solid black 1px;
+  padding: 6px;
+  border-radius: 8px;
+}
+.timeAndQuestion {
+  display: flex;
+  justify-content: space-between;
+}
+.QuestionCondown {
+  font-size: 1.2rem;
+  border: solid black 1px;
+  padding: 6px;
+  border-radius: 6px;
+  background-color: rgb(235, 235, 235);
+  font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 350px) {
+  .QuestionCondown {
+    font-size: 0.8rem;
+    border: solid black 1px;
+    padding: 6px;
+    border-radius: 6px;
+    background-color: rgb(235, 235, 235);
+    font-weight: bold;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Questions {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border: solid black 1px;
+  border-radius: 6px;
+  padding: 6px;
+  margin-top: 8px;
+  background-color: rgb(235, 235, 235);
+}
+.q {
+  margin-right: 12px;
+}
+.timer {
+  display: flex;
+  width: 8.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.timer > div {
+  width: 4rem;
+  height: 2rem;
+  background-color: rgb(235, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+/* styling option bar */
+.options {
   display: flex;
   flex-direction: column;
+}
+.options > div {
+  display: flex;
+  font-size: 1.2rem;
+  margin-top: 12px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  border: solid black 1px;
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+  /* background-color: rgb(235, 235, 235); */
+}
+.options :hover {
+  background-color: rgb(235, 235, 235);
+}
+.options > div > h4 {
+  margin-right: 8px;
+}
+.questionBtns {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.questionBtns > button {
+  min-width: 120px;
+  padding: 6px;
+  background-color: rgb(86, 86, 255);
+  height: 30px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.quizHead {
+  text-align: center;
+  border-bottom: solid black;
+  margin-bottom: 12px;
+  color: brown;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* styling nav bar */
+
+.Navbar {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 3.5rem;
+  border-bottom: solid white 1px;
+  align-items: center;
+  background-color: black;
+}
+.Navbar > button {
+  padding: 6px;
+  margin-left: 12px;
+  background-color: brown;
+  color: white;
+  width: 150px;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+}
+.Navbar > h2 {
+  color: blue;
+  margin-right: 12px;
+}
+/* styling home page */
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url("./images/background.webp") no-repeat center center/cover;
+}
+.home > .navlink {
+  width: 280px;
+  margin-top: 20px;
+  height: 50px;
+  border: solid black 1px;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+}
+/* styling popups */
+.popUp {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  min-width: 40%;
+  height: 170px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 12px;
+  border-radius: 6px;
+}
+.popUp > p {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: black;
+  text-align: center;
+}
+.btns {
+  margin-top: 5.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.btns > button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border: solid black 2px;
+}
+.btns > button:hover {
+  background-color: rgb(252, 153, 153);
+}
+.preview {
+  padding-top: 5rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.preview > div {
+  border: solid black 1px;
+  padding: 12px;
+  width: 90%;
+  margin: auto;
+  margin-top: 2.5rem;
+}
+/* styling score card */
+
+.QuizMode {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  flex-wrap: wrap;
+  font-weight: 900;
+}
+.QuizMode > div {
+  color: black;
+  margin-top: 12px;
+  width: 250px;
+  display: flex;
+  justify-content: start;
+}
+
+.QuizMode > div > span {
+  color: brown;
+  margin-left: 8px;
+}
+.attempts
+{
+  margin-top: 28px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.attempts>div
+{
+  font-size: 1.3rem;
+  font-weight: 900;
+  display: flex;
+}
+.attemptQcontainer
+{
+  display: flex;
+  flex-wrap: wrap;
+}
+.attemptQcontainer>div
+{
+  width: 3.5rem;
+  height: 2rem;
+  /* border: solid black 1px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  border-radius: 6px;
+}
+.attemptQcontainer>div>a 
+{
+  text-decoration: none;
+  color: white;
+}
+.scoreTimer
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.scoreTimer>div
+{
+  width: 280px;
+ font-size: 1.3rem; 
+ margin-top: 12px;
+ font-weight: 900;
+ display: flex;
+ justify-content: start;
+ align-items: center;
+}
+.scoreTimer>div>span
+{
+  color: brown;
+  margin:0 8px 0 8px;
+}
+/* styling up button */
+.Upbutton
+{
+  width: 3rem;
+  height: 3rem;
+  position: fixed;
+  top: 90%;
+  border-radius: 50%;
+  background-color: rgb(250, 175, 175);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 95%;
+  text-decoration: none;
+  transform: translate(-90%,-95%);
+}
+/* styling  histrory page */
+.historyDiv
+{
+  width: 90%;
+
+  margin:12px auto auto auto;
+  border: solid black 2px;
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+}
+.historyContainer
+{
+ padding-top: 4rem;
+  min-width:90vw;
+}
+/* styling clearbtn */
+.clearHistory
+{
+ width: 100vw;
+ height: 80px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.clearHistory>button
+{
+  width: 200px;
+  height: 36px;
+  border-radius: 8px;
+  background-color: brown;
+  color: white;
+  font-size: 1.1rem;
+  outline: none;
+  border: none;
+}
+
+.emptyHistory
+{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 80vh;
+  align-items: center;
+}
+.emptyHistory>div
+{
+  color: rgb(91, 91, 91);
+  font-size: 1.8rem;
 }
